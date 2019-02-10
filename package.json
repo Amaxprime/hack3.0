@@ -1,0 +1,18 @@
+{
+  "name": "hack3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "actionhero start",
+    "actionhero": "actionhero",
+    "pretest": "standard",
+    "test": "cross-env NODE_ENV=test mocha",
+    "lint": "eslint ./initializers ./migrations ./actions ./config ./models"
+  },
+  "author": "shaharyar_shamshi",
+  "license": "ISC",
+  "dependencies": {
+    "actionhero": "^19.1.1"
+  }
+}
